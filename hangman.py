@@ -1,5 +1,6 @@
-import pygame
+#add school name, group number, and individual names
 
+import pygame
 
 word = "hello"
 guess = ["_"] * len(word)
