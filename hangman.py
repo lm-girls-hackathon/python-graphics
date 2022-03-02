@@ -2,16 +2,20 @@
 
 import pygame
 
+#creates variables for guessing
 word = "hello"
 guess = ["_"] * len(word)
 
+#sets the size of the graphics display screen
 WIDTH = 500
 HEIGHT = 500
 
+#creates the display
 pygame.init()
 screen = pygame.display.set_mode([WIDTH, HEIGHT])
 running = True
 
+#runs graphics
 while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
